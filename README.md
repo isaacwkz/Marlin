@@ -1,3 +1,6 @@
+# This fork adds some changes to better suit my machine
+Main changes are documented [here](https://github.com/isaacwkz/Anycubic-Kossel-Linear-Plus-Config)
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
@@ -9,9 +12,6 @@
 
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
-
-# This fork adds some changes to better suit my machine
-Main changes are documented [here](https://github.com/isaacwkz/Anycubic-Kossel-Linear-Plus-Config)
 
 ## Marlin 2.0
 
