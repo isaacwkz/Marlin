@@ -261,6 +261,10 @@ void home_delta() {
 
   endstops.validate_homing_move();
 
+  current_position.z = (delta_height -5); //commands a downwards z movement
+  line_to_current_position(homing_feedrate(Z_AXIS)); //executes queued movement
+  planner.synchronize(); //waits for queued movements to finish executing
+
   // At least one carriage has reached the top.
   // Now re-home each carriage separately.
   homeaxis(A_AXIS);
